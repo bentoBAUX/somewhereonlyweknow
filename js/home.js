@@ -1,19 +1,11 @@
 $(document).ready(function () {
-    $('.ct-box-slider').slick({
-        arrows: false,
+    $('.slider').slick({
+        arrows: true,
         dots: true,
         infinite: false,
+        slidesToShow: 4,
+        slidesToScroll: 1,
     });
-    $('#ct-js-box-slider--prev').on('click', function () {
-        $('.ct-js-box-slider').slick('slickPrev');
-    });
-    $('#ct-js-box-slider--next').on('click', function () {
-        $('.ct-js-box-slider').slick('slickNext');
-    });
-    $('.active-box').on('click', function () {
-        $("body").fadeOut(1000, openeighteightPage);
-    });
-
 });
 
 function openeighteightPage() {
