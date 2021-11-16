@@ -33,7 +33,7 @@ input:focus {
 }
 
 .whole-eighteight {
-  -webkit-animation: fadein 1.5s;
+  -webkit-animation: fadeIn 1.5s;
   position: absolute;
   left: 50%;
   top: 47%;
@@ -50,7 +50,7 @@ input:focus {
 
 /*eighteight*/
 .content-eighteight {
-  -webkit-animation: fadein 1.5s;
+  -webkit-animation: fadeIn 1.5s;
   position: absolute;
   left: 50%;
   top: 47%;
@@ -108,7 +108,7 @@ input:focus {
 
 /* animation */
 
-@keyframes fadein {
+@keyframes fadeIn {
   from {
     opacity: 0;
   }
