@@ -84,6 +84,13 @@ body {
   background-color: #e2e2e2;
 
   text-indent: -9999px;
+
+  transition: 0.2s;
+}
+
+.slick-dots button:hover {
+  cursor: pointer;
+  opacity: 80%;
 }
 
 .slick-dots li.slick-active button {
@@ -113,6 +120,12 @@ button {
   width: 24px;
 
   cursor: pointer;
+
+  transition: 0.2s;
+}
+
+.arrow:hover {
+  opacity: 70%;
 }
 
 .arrow_prev {
