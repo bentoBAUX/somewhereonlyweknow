@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+html,
+body {
+  -webkit-animation: fadeIn 1s;
+  width: 100%;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.content-eighteight {
+  -webkit-animation: fadeIn 1.5s;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: left;
+}
+
+.title-eighteight {
+  display: inline;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 4rem;
+  line-height: 6.5rem;
+  color: #3a3a3a;
+}
+
+.slash-eighteight {
+  color: #ab9352;
+}
+
+.body-eighteight {
+  font-family: "Spectral", serif;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+  line-height: 1.8rem;
+  color: #515151;
+}
+
+.player-eighteight {
+  font-family: "Spectral", serif;
+  font-size: 18px;
+  letter-spacing: 0.1rem;
+  line-height: 1.8rem;
+  color: #515151;
+  text-align: center;
+}
+
+.song-name {
+  font-weight: 400;
+  font-style: italic;
+}
+
+.back-arrow-ct {
+  text-align: right;
+}
+
+#back-arrow {
+  width: 1.7rem;
+}
+
+#back-arrow:hover {
+  cursor: pointer;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .content-eighteight {
+    height: 100%;
+    margin-top: 3rem;
+  }
+  .body-eighteight {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .title-eighteight {
+    font-size: 3.8rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .title-eighteight {
+    font-size: 3.5rem;
+  }
+
+  .player-eighteight {
+    text-align: left;
+    font-size: 1rem;
+  }
+
+  #back-arrow {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .title-eighteight {
+    font-size: 2.5rem;
+    line-height: 3.2rem;
+  }
+  .body-eighteight {
+    font-size: 0.8rem;
+  }
+  .player-eighteight {
+    text-align: center;
+  }
+}
