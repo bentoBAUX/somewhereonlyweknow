@@ -50,7 +50,7 @@ function checkPassword(password) {
 }
 
 function openHomePage() {
-    window.location = "home.html";
+    window.location = "/html/home.html";
 }
 
 
