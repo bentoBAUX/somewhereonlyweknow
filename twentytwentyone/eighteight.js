@@ -5,5 +5,6 @@ $(document).ready(function () {
 });
 
 function openHomePage() {
-    window.location = "somewhereonlyweknow/html/home.html";
+    //window.location = "somewhereonlyweknow/html/home.html";
+    window.location = "home.html";
 }
